@@ -67,35 +67,7 @@
     opacity: 0.8;
 }
 
-.testimonio-float {
-    position: absolute;
-    width: 280px;
-    height: 350px;
-    object-fit: cover;
-    box-shadow: 0 20px 40px rgba(221, 179, 8, 0.2);
-    z-index: 10;
-    animation: float 6s ease-in-out infinite;
-}
-.testimonio-float-left {
-    left: -240px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.testimonio-float-right {
-    right: -240px;
-    top: 50%;
-    transform: translateY(-50%);
-    animation-delay: 3s;
-}
 
-@keyframes float {
-    0%, 100% { transform: translateY(-50%) rotate(-2deg); }
-    50% { transform: translateY(-60%) rotate(2deg); }
-}
-@keyframes mobileFloat {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
-}
 
 /* ---------- Tarjetas de equipo ---------- */
 .equipo-grid {
